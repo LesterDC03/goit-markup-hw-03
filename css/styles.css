@@ -1,0 +1,65 @@
+body {
+    font-family: Roboto;
+    line-height: normal;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+h1{
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+
+}
+/* .butones{
+    color:white;
+    background: #4D5AE5;
+    border:none;
+    padding: 5px; */
+}
+.btn {
+    font-family: Roboto;
+    color:white;
+}
+.btn:hover{
+    background-color: tomato;
+}
+.front {
+    background-color: #2E2F42;
+}
+.web{
+    font-family: Raleway;
+    font-weight: 700;
+}
+.footer {
+    background: #2E2F42;
+    color: white;
+    font-size: 18px;
+}
+
+h2{
+    text-align: center;
+    font-size: 45px;
+}
+.navigation{
+    font-weight: 500;
+    font-size: 17px;
+}
+.studio-footer{
+    color:white;
+}
+.web_span{
+    color:#4D5AE5;
+}
+a:hover{
+    font-weight:bolder;
+    color:#4D5AE5;
+}
+.web:hover{
+    font-weight: 800;
+}
