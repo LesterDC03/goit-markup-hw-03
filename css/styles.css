@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 body {
     font-family: Roboto;
     line-height: normal;
@@ -14,23 +19,18 @@ h1{
     text-transform: uppercase;
     text-align: center;
     color: white;
+}
 
-}
-/* .butones{
-    color:white;
-    background: #4D5AE5;
-    border:none;
-    padding: 5px; */
-}
-.btn {
-    font-family: Roboto;
-    color:white;
-}
-.btn:hover{
-    background-color: tomato;
-}
 .front {
+    padding: 175px 50px 200px 50px;
     background-color: #2E2F42;
+    display:block;
+}
+button{
+    display:block;
+    margin:auto;
+    background-color: #4D5AE5;
+    color:white;
 }
 .web{
     font-family: Raleway;
@@ -50,6 +50,9 @@ h2{
     font-weight: 500;
     font-size: 17px;
 }
+nav.navigation{
+    padding: 0;
+}
 .studio-footer{
     color:white;
 }
@@ -63,3 +66,24 @@ a:hover{
 .web:hover{
     font-weight: 800;
 }
+a, nav, .information{
+    display:inline-flex;
+    justify-content: flex-start;
+    margin: auto;
+}
+li.navi{
+    display:flex;
+    justify-content: flex-start;
+}
+.container{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 50px;
+    padding: 50px;
+}
+.top{
+    display:flex;
+    /* justify-content: flex-end; */
+    padding: 20px 0px;
+}
+
