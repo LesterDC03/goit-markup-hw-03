@@ -16,8 +16,9 @@ li{
 }
 h1{
     font-size: 55px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align: center;
+    margin: 20px;
     color: white;
 }
 
@@ -28,9 +29,15 @@ h1{
 }
 button{
     display:block;
-    margin:auto;
+    margin: auto;
     background-color: #4D5AE5;
-    color:white;
+    border-style: solid;
+    border-color: #4D5AE5;
+    border-radius: 5px;
+}
+a.butones{
+    color: white;
+    margin: 15px;
 }
 .web{
     font-family: Raleway;
@@ -46,6 +53,7 @@ button{
 h2{
     text-align: center;
     font-size: 45px;
+    padding: 50px;
 }
 .navigation{
     font-weight: 500;
@@ -59,30 +67,51 @@ h2{
 }
 a:hover{
     font-weight:bolder;
-    color:#4D5AE5;
 }
 .web:hover{
     font-weight: 800;
+    color:#4D5AE5;
 }
-/* a, nav, .information{
-    display:inline-flex;
-    justify-content: flex-start;
-    margin: auto;
-} */
-
-.container{
+a.navigate:hover{
+    font-weight: bolder;
+    color:#4D5AE5;
+}
+section.container{
+    margin: 120px 0;
+}
+.container1{
     display:flex;
-    justify-content: space-evenly;
-    margin: 50px;
-    padding: 50px;
+    justify-content: space-around;
+    margin: 0 50px;
+    padding: 0 50px;
+    border: 1px dashed black;
 }
 .top{
     display:flex;
     padding: 20px 100px;
+    justify-content: flex-start;
 }
 li.navi {
-    padding: 0 30px;
+    padding-left: 50px;
 }
-li.card{
+div.card{
+    background-color: white;
     box-shadow: #2E2F42;
+
+}
+a, nav, .information{
+    display:inline-flex;
+    justify-content: flex-end;
+    /* margin: 0 20px; */
+    /* margin: auto; */
+}
+li.info{
+    padding:0 20px;
+}
+section.information{
+    margin: auto;
+    margin-right: 0;
+}
+div.team{
+    background-color: #ededf1;
 }
