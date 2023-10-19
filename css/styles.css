@@ -40,6 +40,7 @@ button{
     background: #2E2F42;
     color: white;
     font-size: 18px;
+    padding: 100px;
 }
 
 h2{
@@ -49,9 +50,6 @@ h2{
 .navigation{
     font-weight: 500;
     font-size: 17px;
-}
-nav.navigation{
-    padding: 0;
 }
 .studio-footer{
     color:white;
@@ -66,15 +64,12 @@ a:hover{
 .web:hover{
     font-weight: 800;
 }
-a, nav, .information{
+/* a, nav, .information{
     display:inline-flex;
     justify-content: flex-start;
     margin: auto;
-}
-li.navi{
-    display:flex;
-    justify-content: flex-start;
-}
+} */
+
 .container{
     display:flex;
     justify-content: space-evenly;
@@ -83,7 +78,11 @@ li.navi{
 }
 .top{
     display:flex;
-    /* justify-content: flex-end; */
-    padding: 20px 0px;
+    padding: 20px 100px;
 }
-
+li.navi {
+    padding: 0 30px;
+}
+li.card{
+    box-shadow: #2E2F42;
+}
