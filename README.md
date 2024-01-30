@@ -1,3 +1,3 @@
-# goit-markup-hw-04
+# goit-markup-hw-03
 
-Fourth task on GO IT
+Third task on GO IT
